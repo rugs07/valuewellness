@@ -158,7 +158,7 @@ const Home = () => {
       </div>
 
       {/* Magic Stats Section */}
-      <div className="w-full bg-white py-12">
+      <div className="w-full mt-12 py-12">
         <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 px-4">
           {[
             { icon: '⭐', color: 'from-yellow-400 to-pink-400', ...stats[0] },
@@ -181,8 +181,8 @@ const Home = () => {
       </div>
 
       {/* Reviews Carousel */}
-      <div className="max-w-3xl mx-auto my-16 bg-white">
-        <h2 className="text-2xl font-bold mb-6 text-center text-sky-800">What Our Clients Say</h2>
+      <div className="max-w-6xl mx-auto my-16 bg-white">
+        <h2 className="text-2xl font-bold pt-4 mt-2 text-center text-sky-800">What Our Clients Say</h2>
         <div className="bg-white p-0 md:p-8 shadow-lg">
           <Slider {...reviewSettings}>
             {reviews.map((review, idx) => (
@@ -222,7 +222,7 @@ const Home = () => {
 
       {/* Before/After Image Slider Section */}
       <section className="w-full py-16">
-        <div className="max-w-4xl mx-auto px-4">
+        <div className="max-w-6xl mx-auto px-4">
           <h3 className="text-2xl font-bold text-sky-800 mb-8 text-center">See the Transformation</h3>
           <BeforeAfterSlider beforeImg={beforeImg} afterImg={afterImg} />
         </div>

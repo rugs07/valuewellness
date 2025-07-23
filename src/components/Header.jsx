@@ -15,7 +15,7 @@ const Header = () => {
         <Link to="/about" className="hover:underline">About</Link>
         <Link to="#" className="hover:underline">Gallery</Link>
       </nav>
-      <button className="bg-[#D3C2FF] text- hover:bg-purple-200 px-4 py-2 font-bold cursor-pointer">Book Appointment</button>
+      <button className="bg-[#D3C2FF] text-[#000] hover:bg-purple-200 px-4 py-2 transition-all duration-800 ease-in-out cursor-pointer">Book Appointment</button>
     </header>
   )
 }
