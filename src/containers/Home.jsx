@@ -20,9 +20,9 @@ const heroSlides = [
 ]
 
 const stats = [
-  { label: 'Delighted Clients', value: '1,00,000+' },
+  { label: 'Delighted Clients', value: '100+' },
   { label: 'Proven Expertise', value: '193+' },
-  { label: 'Procedures', value: '1,00,000+' },
+  { label: 'Procedures', value: '90+' },
   { label: 'Years of Experience', value: '15+' },
 ]
 
